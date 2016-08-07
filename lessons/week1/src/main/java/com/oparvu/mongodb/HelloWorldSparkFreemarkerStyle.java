@@ -32,6 +32,8 @@ public class HelloWorldSparkFreemarkerStyle {
                 
                 System.out.println(writer);
             } catch (Exception exception) {
+                Spark.halt(500);
+                
                 exception.printStackTrace();
             }
             
